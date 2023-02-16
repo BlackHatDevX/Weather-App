@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        align-items: center;
+        text-align: center;
+    }
+    .container{
+        background-color: azure;
+        border-radius: 5px;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        height: auto;
+        width: 30%;
+        border: red 0.5px solid;
+    }
+    button{
+        background-color: bisque;
+        color: black;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    input{
+        margin-bottom: 12px;
+        border-style: none;
+        border : black 2px solid;
+        border-radius: 5px;
+        padding: 3px;
+        text-align: center;
+}
+    img{
+        margin-bottom: 15px;
+        height: 100px;
+        width: auto;
+    }
+    h1{
+        margin-top: 15px;
+    }
+    h6{
+        color: darkslategrey;
+        padding-bottom: 5px;
+    }
+</style>
+<body>
+        <div class="container">
+            <h1>Weather App</h1>
+            <br>
+            <img src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" alt="">
+            <br>
+            <form action="/" method="post">
+                <input type="text" name="city" placeholder="Enter City Name">
+                <br><button type="submit">Check Weather</button>
+            </form>
+            <br>
+            <h6>© App developed by JASH GRO</h6>
+        </div>
+        <h6 style="color: grey; margin-top: 50px;">NOTE : App is still in beta phase.</h6>
+</body>
+</html>
